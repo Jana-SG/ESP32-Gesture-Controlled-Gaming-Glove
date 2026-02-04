@@ -181,3 +181,21 @@ Typical mapping used:
 - **Finger bend (flex sensor threshold)** → shoot
 
 ---
+## 📚 Project Documentation
+
+Comprehensive technical documentation is included in the `/Docs/` directory.
+
+### 📄 Technical Report
+- Introduction and system motivation 
+- Flowchart of system operation
+- Hardware components and wiring connections 
+- Description of actuators and transducers 
+- ESP32 initialization and sensor data acquisition 
+- UDP transmission workflow  
+
+### 📊 Presentation Slides
+- Project overview  
+- Hardware overview  
+- Algorithms and logic 
+- Hardware connections 
+- Arduino sketch 

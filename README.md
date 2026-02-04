@@ -14,7 +14,7 @@ This project allows real-time hand gestures to control player movement and shoot
 
 ##  System Architecture
 
-ESP32 (MPU6050 + Flex Sensor)  
+→ ESP32 (MPU6050 + Flex Sensor)  
 → UDP transmission  
 → Python bridge (`serial_reader.ipynb`)
 → `serial_output.txt`

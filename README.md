@@ -70,6 +70,7 @@ Below is the physical prototype of the gesture-controlled glove system:
 
 The system operates wirelessly via Wi-Fi (UDP communication).
 
+---
 
 ## 🎮 Base Game Project (Credits)
 

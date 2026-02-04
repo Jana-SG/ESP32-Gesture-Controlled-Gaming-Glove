@@ -23,7 +23,6 @@ ESP32 (MPU6050 + Flex Sensor)
 
 ---
 
----
 ### 📄 Data File
 
 The Python notebook (`serial_reader.ipynb`) continuously writes sensor data to:
@@ -67,9 +66,8 @@ This repo only includes the scripts I modified/added for gesture control input.
 
 ---
 
----
 
-## 📁 What I Added / Modified
+## 📁 What I Added / Modified 
 
 ### ✅ Added
 1) `Assets/StreamingAssets/SerialController.cs`  
@@ -94,7 +92,6 @@ Path: Assets/Scripts
 
 ---
 
----
 
 ## ▶️ How To Use These Scripts in Your Copy of the Game
 
@@ -120,7 +117,7 @@ Replace these scripts in your Unity project with the modified versions from this
 - `RigidbodyFirstPersonController.cs`
 - `Wepon.cs`
 
-Make sure they go into the exact same paths
+Make sure they are placed in the same paths as in the original project.
 
 ---
 

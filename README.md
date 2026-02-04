@@ -48,13 +48,24 @@ Unity reads this file at runtime to update movement, rotation, and shooting beha
 ├── arduino/
 │   └── esp32_glove.ino
 │
-└── docs/
+└── Docs/
     ├── Gesture controlled gaming glove.pdf
-    └── Gesture controlled gaming glove.pptx
+    ├── Gesture controlled gaming glove.pptx
+    ├──  glove_prototype_circuit.jpeg
+    └──  glove_wearable.jpeg
 ```
 ---
+## Development Process
 
-## 🧤 Hardware Prototype
+1. Hardware prototyping on breadboard  
+2. Sensor calibration and data validation  
+3. UDP transmission testing  
+4. Unity integration and gameplay mapping  
+5. Wearable enclosure design
+   
+---
+
+## 🔌 Circuit / Wiring Prototype
 
 Below is the physical prototype of the gesture-controlled glove system:
 
@@ -62,7 +73,7 @@ Below is the physical prototype of the gesture-controlled glove system:
   <img src="Docs/glove_prototype_circuit.jpeg" width="450"/>
 </p>
 
-### Components Visible:
+### Components:
 - ESP32 microcontroller mounted on breadboard
 - MPU6050 (I2C motion sensor)
 - Flex sensor (analog input)
@@ -75,16 +86,18 @@ The system operates wirelessly via Wi-Fi (UDP communication).
 ---
 
 ## 🧤 Final Wearable Design
-
+After validating the electronics, the system was integrated into a wearable form factor.
 <p align="center">
   <img src="Docs/glove_wearable.jpeg" width="450"/>
 </p>
 
 The final prototype integrates the sensors into a wearable glove:
 - Flex sensor mounted along the finger
-- Motion sensor positioned on the back of the hand
-- ESP32 + battery enclosed in portable casing
+- MPU6050 positioned on the back of the hand
+- ESP32 and battery enclosed in a portable housing
 - Fully wireless operation via Wi-Fi
+  
+This design enables natural hand gestures to control in-game movement and shooting.
 
 ---
 

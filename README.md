@@ -23,16 +23,6 @@ This project allows real-time hand gestures to control player movement and shoot
 
 ---
 
-### 📄 Data File
-
-The Python notebook (`serial_reader.ipynb`) continuously writes sensor data to:
-
-`serial_output.txt`
-
-Unity reads this file at runtime to update movement, rotation, and shooting behavior.
-
----
-
 ## 📁 Repository Structure
 ```
 /
@@ -138,7 +128,15 @@ Path: Assets/Scripts
 - Connects gesture-based shoot signal to in-game weapon firing logic
 
 ---
+### 📄 Data File
 
+The Python notebook (`serial_reader.ipynb`) continuously writes sensor data to:
+
+`serial_output.txt`
+
+Unity reads this file at runtime to update movement, rotation, and shooting behavior.
+
+---
 
 ## ▶️ How To Use These Scripts in Your Copy of the Game
 

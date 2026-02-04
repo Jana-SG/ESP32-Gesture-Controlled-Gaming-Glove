@@ -58,7 +58,7 @@ Unity reads this file at runtime to update movement, rotation, and shooting beha
 
 Below is the physical prototype of the gesture-controlled glove system:
 
-![Glove Prototype](docs/glove_prototype_circuit.jpg)
+![Glove Prototype](docs/glove_prototype_circuit.jpeg)
 
 ### Components Visible:
 - ESP32 microcontroller mounted on breadboard

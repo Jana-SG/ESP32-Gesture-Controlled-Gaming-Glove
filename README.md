@@ -54,6 +54,23 @@ Unity reads this file at runtime to update movement, rotation, and shooting beha
 ```
 ---
 
+## 🧤 Hardware Prototype
+
+Below is the physical prototype of the gesture-controlled glove system:
+
+![Glove Prototype](docs/glove_prototype_circuit.jpg)
+
+### Components Visible:
+- ESP32 microcontroller mounted on breadboard
+- MPU6050 (I2C motion sensor)
+- Flex sensor (analog input)
+- 7.4V Li-ion battery
+- Step-down voltage regulator
+- 47kΩ resistor (flex sensor voltage divider)
+
+The system operates wirelessly via Wi-Fi (UDP communication).
+
+
 ## 🎮 Base Game Project (Credits)
 
 This work is built on top of the open-source Unity project:

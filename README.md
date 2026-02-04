@@ -58,7 +58,9 @@ Unity reads this file at runtime to update movement, rotation, and shooting beha
 
 Below is the physical prototype of the gesture-controlled glove system:
 
-![Glove Prototype](Docs/glove_prototype_circuit.jpeg)
+<p align="center">
+  <img src="Docs/glove_prototype_circuit.jpeg" width="450"/>
+</p>
 
 ### Components Visible:
 - ESP32 microcontroller mounted on breadboard
@@ -69,6 +71,20 @@ Below is the physical prototype of the gesture-controlled glove system:
 - 47kΩ resistor (flex sensor voltage divider)
 
 The system operates wirelessly via Wi-Fi (UDP communication).
+
+---
+
+## 🧤 Final Wearable Design
+
+<p align="center">
+  <img src="Docs/glove_wearable.jpeg" width="450"/>
+</p>
+
+The final prototype integrates the sensors into a wearable glove:
+- Flex sensor mounted along the finger
+- Motion sensor positioned on the back of the hand
+- ESP32 + battery enclosed in portable casing
+- Fully wireless operation via Wi-Fi
 
 ---
 
